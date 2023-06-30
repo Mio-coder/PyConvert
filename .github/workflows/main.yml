@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+    - main
+
+permissions: read-all|write-all
+jobs:
+  first:
+    runs-on: [self-hosted, windows-latest]
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v3.1.4
+      - run: pip -r requriments.txt
+      - run: pyinstaller -F --add-data "fileTypesData.json;." -p C:\Users\oparm\PycharmProjects\Pyconvert\.venv\Lib\site-packages -w converter.py file_dilog.py main.py ui.py
