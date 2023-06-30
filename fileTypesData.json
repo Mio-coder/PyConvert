@@ -1,0 +1,50 @@
+{
+  "Image": [
+    [
+      "BMP",
+      "DIB",
+      "JPEG"
+    ],
+    [
+      "JPG",
+      "JPE",
+      "JP2"
+    ],
+    [
+      "PNG",
+      "WEBP",
+      "PBM"
+    ],
+    [
+      "PGM",
+      "PPM",
+      "PXM"
+    ],
+    [
+      "PNM",
+      "PFM",
+      "SR"
+    ],
+    [
+      "RAS",
+      "TIFF",
+      "TIF"
+    ],
+    [
+      "EXR",
+      "HDR",
+      "PIC"
+    ]
+  ],
+  "Video": [
+    [
+      "WEBM",
+      "OGG",
+      "MP4"
+    ],
+    [
+      "AVI",
+      "MOV"
+    ]
+  ]
+}
